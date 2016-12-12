@@ -178,7 +178,7 @@ function respond() {
   }
   else if(request.text && botRegexSMB.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://imgur.com/a/tDamB");
+    postMessage("http://i.imgur.com/BtlG3v1.jpg");
     this.res.end();
   }
   
