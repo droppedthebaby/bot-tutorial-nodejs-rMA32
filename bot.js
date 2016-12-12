@@ -181,7 +181,6 @@ function respond() {
     postMessage("http://i.imgur.com/BtlG3v1.jpg");
     this.res.end();
   }
-  
   else {
     console.log("don't care");
     this.res.writeHead(200);
