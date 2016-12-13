@@ -181,7 +181,7 @@ function respond() {
     postMessage("http://i.imgur.com/BtlG3v1.png");
     this.res.end();
   }
-  else if(request.text && botRegexSMB.test(request.text)) {
+  else if(request.text && botRegexStATL.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/jbo_991");
     this.res.end();
