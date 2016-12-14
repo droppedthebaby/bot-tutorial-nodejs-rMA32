@@ -278,7 +278,7 @@ else if(request.text && botRegexStGB.test(request.text)) {
   }
 else if(request.text && botRegexStDET.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/h_reyes_55");
+    postMessage("https://www.twitch.tv/");
     this.res.end();
   }
 else if(request.text && botRegexStJAX.test(request.text)) {
