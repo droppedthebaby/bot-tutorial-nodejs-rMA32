@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/; 
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/hate/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/;
+      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/hate/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/; botRegexSMB = /^\/balls/; botRegexStATL = /^\/st atl/; botRegexStOAK = /^\/st oak/; botRegexStSD = /^\/st sd/; botRegexStKC = /^\/st kc/; botRegexStDEN = /^\/st den/; botRegexStPIT = /^\/st pit/; botRegexStBAL = /^\/st bal/; botRegexStCLE = /^\/st cle/; botRegexStCIN = /^\/st cin/; botRegexStBUF = /^\/st buf/; botRegexStNE = /^\/st ne/; botRegexStMIA = /^\/st mia/; botRegexStNYJ = /^\/st nyj/; botRegexStCAR = /^\/st car/; botRegexStNO = /^\/st no/; botRegexStTB = /^\/st tb/; botRegexStCHI = /^\/st chi/; botRegexStMIN = /^\/st min/; botRegexStDET = /^\/st det/; botRegexStGB = /^\/st GB/; botRegexStJAX = /^\/st jax/; botRegexStIND = /^\/st ind/; botRegexStHOU = /^\/st hou/; botRegexStTEN = /^\/st ten/; botRegexStSEA = /^\/st sea/; botRegexStAZ = /^\/st az/; botRegexStSF = /^\/st sf/; botRegexStLA = /^\/st la/; botRegexStWAS = /^\/st was/; botRegexStNYG = /^\/st nyg/; botRegexStDAL = /^\/st dal/; botRegexStPHI = /^\/st phi/;  
@@ -381,7 +381,11 @@ else if(request.text && botRegexAmI.test(request.text)) {
     postMessage("http://www.quickmeme.com/img/10/1038253cfffcb26e9843ba2109e4cf8e52c0e7fa3ade70c9faf6ca9008e34b5e.jpg");
     this.res.end();
   }
-
+else if(request.text && botRegexThankGod.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i60.tinypic.com/2uf3osy.jpg");
+    this.res.end();
+  }
   else {
     console.log("don't care");
     this.res.writeHead(200);
