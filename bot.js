@@ -186,157 +186,157 @@ function respond() {
     postMessage("https://www.twitch.tv/jbo_991");
     this.res.end();
   }
-  else if(request.text && botRegexOAK.test(request.text)) {
+  else if(request.text && botRegexStOAK.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/droppedthebaby");
     this.res.end();
   } 	
-else if(request.text && botRegexSD.test(request.text)) {
+else if(request.text && botRegexStSD.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/awesome_ninja790");
     this.res.end();
   }
-else if(request.text && botRegexKC.test(request.text)) {
+else if(request.text && botRegexStKC.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexDEN.test(request.text)) {
+else if(request.text && botRegexStDEN.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexPIT.test(request.text)) {
+else if(request.text && botRegexStPIT.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexBAL.test(request.text)) {
+else if(request.text && botRegexStBAL.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/mrx_2yu");
     this.res.end();
   }
-else if(request.text && botRegexCIN.test(request.text)) {
+else if(request.text && botRegexStCIN.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexCLE.test(request.text)) {
+else if(request.text && botRegexStCLE.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexBUF.test(request.text)) {
+else if(request.text && botRegexStBUF.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexNE.test(request.text)) {
+else if(request.text && botRegexStNE.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/gkatz17");
     this.res.end();
   }
-else if(request.text && botRegexMIA.test(request.text)) {
+else if(request.text && botRegexStMIA.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/budiceeffect1");
     this.res.end();
   }
-else if(request.text && botRegexNYJ.test(request.text)) {
+else if(request.text && botRegexStNYJ.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/Q1Lqewf70A");
     this.res.end();
   }
-else if(request.text && botRegexCAR.test(request.text)) {
+else if(request.text && botRegexStCAR.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/tannerp52");
     this.res.end();
   }
-else if(request.text && botRegexTB.test(request.text)) {
+else if(request.text && botRegexStTB.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/shayafar");
     this.res.end();
   }
-else if(request.text && botRegexNO.test(request.text)) {
+else if(request.text && botRegexStNO.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/dsmooth7");
     this.res.end();
   }
-else if(request.text && botRegexCHI.test(request.text)) {
+else if(request.text && botRegexStCHI.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexMIN.test(request.text)) {
+else if(request.text && botRegexStMIN.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/bestkorea1");
     this.res.end();
   }
-else if(request.text && botRegexGB.test(request.text)) {
+else if(request.text && botRegexStGB.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/jayinurjungle");
     this.res.end();
   }
-else if(request.text && botRegexDET.test(request.text)) {
+else if(request.text && botRegexStDET.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/h_reyes_55");
     this.res.end();
   }
-else if(request.text && botRegexJAX.test(request.text)) {
+else if(request.text && botRegexStJAX.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexIND.test(request.text)) {
+else if(request.text && botRegexStIND.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/alfreddsc");
     this.res.end();
   }
-else if(request.text && botRegexHOU.test(request.text)) {
+else if(request.text && botRegexStHOU.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/xxhustlexx");
     this.res.end();
   }
-else if(request.text && botRegexTEN.test(request.text)) {
+else if(request.text && botRegexStTEN.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/kingpluskong");
     this.res.end();
   }
-else if(request.text && botRegexSEA.test(request.text)) {
+else if(request.text && botRegexStSEA.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/newtonless_panthers");
     this.res.end();
   }
-else if(request.text && botRegexAZ.test(request.text)) {
+else if(request.text && botRegexStAZ.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/ravenslions44");
     this.res.end();
   }
-else if(request.text && botRegexSF.test(request.text)) {
+else if(request.text && botRegexStSF.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/ganggreentitans");
     this.res.end();
   }
-else if(request.text && botRegexLA.test(request.text)) {
+else if(request.text && botRegexStLA.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexWAS.test(request.text)) {
+else if(request.text && botRegexStWAS.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://https://www.twitch.tv/wrjboy28");
     this.res.end();
   }
-else if(request.text && botRegexNYG.test(request.text)) {
+else if(request.text && botRegexStNYG.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexDAL.test(request.text)) {
+else if(request.text && botRegexStDAL.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://https://www.twitch.tv/");
     this.res.end();
   }
-else if(request.text && botRegexPHI.test(request.text)) {
+else if(request.text && botRegexStPHI.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://www.twitch.tv/longhard_hard");
     this.res.end();
