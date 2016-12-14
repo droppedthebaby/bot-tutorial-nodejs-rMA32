@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/; 
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/haters/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/; botRegexMascot = /^\/mascot/; botRegexHateFlow = /^\/hate/; botRegexController = /^\/controller/; botRegexUMad = /^\/u mad/; botRegexLost = /^\/lost/; botRegexFuckThis = /^\/fuck this/; botRegexBrowns = /^\/browns/;
+      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/haters/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/; botRegexMascot = /^\/mascot/; botRegexHateFlow = /^\/hate/; botRegexController = /^\/controller/; botRegexUMad = /^\/u mad/; botRegexLost = /^\/lost/; botRegexFuckThis = /^\/fuck this/; botRegexBrowns = /^\/browns/; botRegexGay = /^\/gay/; botRegexLmao = /^\/lmao/; botRegexShutUp = /^\/shut up/; botRegexStfu = /^\/stfu/; botRegexCloseOne = /^\/close one/; botRegexGotcha = /^\/gotcha/; botRegexUnderdog = /^\/underdog/; botRegexSurprise = /^\/surprise/; botRegexLongWay = /^\/long way down/; botRegexPeaceOut = /^\/peace out/; botRegexMicDrop = /^\/mic drop/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/; botRegexSMB = /^\/balls/; botRegexStATL = /^\/st atl/; botRegexStOAK = /^\/st oak/; botRegexStSD = /^\/st sd/; botRegexStKC = /^\/st kc/; botRegexStDEN = /^\/st den/; botRegexStPIT = /^\/st pit/; botRegexStBAL = /^\/st bal/; botRegexStCLE = /^\/st cle/; botRegexStCIN = /^\/st cin/; botRegexStBUF = /^\/st buf/; botRegexStNE = /^\/st ne/; botRegexStMIA = /^\/st mia/; botRegexStNYJ = /^\/st nyj/; botRegexStCAR = /^\/st car/; botRegexStNO = /^\/st no/; botRegexStTB = /^\/st tb/; botRegexStCHI = /^\/st chi/; botRegexStMIN = /^\/st min/; botRegexStDET = /^\/st det/; botRegexStGB = /^\/st gb/; botRegexStJAX = /^\/st jax/; botRegexStIND = /^\/st ind/; botRegexStHOU = /^\/st hou/; botRegexStTEN = /^\/st ten/; botRegexStSEA = /^\/st sea/; botRegexStAZ = /^\/st az/; botRegexStSF = /^\/st sf/; botRegexStLA = /^\/st la/; botRegexStWAS = /^\/st was/; botRegexStNYG = /^\/st nyg/; botRegexStDAL = /^\/st dal/; botRegexStPHI = /^\/st phi/;  
@@ -419,6 +419,62 @@ else if(request.text && botRegexFuckThis.test(request.text)) {
 else if(request.text && botRegexBrowns.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://media.cleveland.com/browns_impact/photo/browns-memejpg-05fb02c929e66aaa.jpg");
+    this.res.end();
+  }
+  else if(request.text && botRegexGay.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/UMKXoFm.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexLmao.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://cdn.smosh.com/sites/default/files/legacy.images/smosh-pit/012011/snooki-laugh.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexShutUp.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/Ci6L2mZ.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexStfu.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://img.pandawhale.com/post-46593-best-shut-up-gif-ever-Imgur-fi-95t6.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexCloseOne.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://media.giphy.com/media/zpgm49vLkiumA/giphy.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexGotcha.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://media.giphy.com/media/Bv9Ei4ztRqT28/giphy.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexUnderdog.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i.imgur.com/uUIL9Ac.gif");
+    this.res.end();
+  }
+
+else if(request.text && botRegexSurprise.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://funnyasduck.net/wp-content/uploads/2012/11/funny-dancing-panda-street-hit-truck-car-animated-gif.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexLongWay.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://static2.bustaflash.com/funnystuff/gifs/longwaydown.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexPeaceOut.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://cdn-images-1.medium.com/max/800/1*spKywuGDvOX0MeHx6TtgQw.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexMicDrop.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://0.media.collegehumor.cvcdn.com/82/61/f5657ea6e8a5225a9c0c692817d5bf5c-micdrop07.gif");
     this.res.end();
   }
   else {
