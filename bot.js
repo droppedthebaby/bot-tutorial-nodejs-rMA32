@@ -238,7 +238,7 @@ else if(request.text && botRegexStNYJ.test(request.text)) {
   }
 else if(request.text && botRegexStCAR.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/tannerp52");
+    postMessage("https://www.twitch.tv/");
     this.res.end();
   }
 else if(request.text && botRegexStTB.test(request.text)) {
@@ -308,7 +308,7 @@ else if(request.text && botRegexStSF.test(request.text)) {
   }
 else if(request.text && botRegexStLA.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.twitch.tv/tannerp52");
     this.res.end();
   }
 else if(request.text && botRegexStWAS.test(request.text)) {
