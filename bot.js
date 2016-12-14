@@ -198,7 +198,7 @@ else if(request.text && botRegexStDEN.test(request.text)) {
   }
 else if(request.text && botRegexStPIT.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.twitch.tv/pugnok");
     this.res.end();
   }
 else if(request.text && botRegexStBAL.test(request.text)) {
@@ -218,7 +218,7 @@ else if(request.text && botRegexStCLE.test(request.text)) {
   }
 else if(request.text && botRegexStBUF.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.youtube.com/Nickcarroll67");
     this.res.end();
   }
 else if(request.text && botRegexStNE.test(request.text)) {
@@ -253,7 +253,7 @@ else if(request.text && botRegexStNO.test(request.text)) {
   }
 else if(request.text && botRegexStCHI.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.twitch.tv/Tburton1989");
     this.res.end();
   }
 else if(request.text && botRegexStMIN.test(request.text)) {
@@ -273,7 +273,7 @@ else if(request.text && botRegexStDET.test(request.text)) {
   }
 else if(request.text && botRegexStJAX.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.twitch.tv/sdav15");
     this.res.end();
   }
 else if(request.text && botRegexStIND.test(request.text)) {
