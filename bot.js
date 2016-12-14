@@ -188,7 +188,7 @@ else if(request.text && botRegexStSD.test(request.text)) {
   }
 else if(request.text && botRegexStKC.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.twitch.tv/Msugaige");
     this.res.end();
   }
 else if(request.text && botRegexStDEN.test(request.text)) {
@@ -208,12 +208,12 @@ else if(request.text && botRegexStBAL.test(request.text)) {
   }
 else if(request.text && botRegexStCIN.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.twitch.tv/corey__cuuh");
     this.res.end();
   }
 else if(request.text && botRegexStCLE.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/");
+    postMessage("https://www.youtube.com/channel/UCSgVueR2TxftBOyQGIz31HQ");
     this.res.end();
   }
 else if(request.text && botRegexStBUF.test(request.text)) {
@@ -318,12 +318,12 @@ else if(request.text && botRegexStWAS.test(request.text)) {
   }
 else if(request.text && botRegexStNYG.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://https://www.twitch.tv/");
+    postMessage("https://https://www.twitch.tv/ThatGuyTony27");
     this.res.end();
   }
 else if(request.text && botRegexStDAL.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://https://www.twitch.tv/");
+    postMessage("https://https://www.twitch.tv/Drgjr54");
     this.res.end();
   }
 else if(request.text && botRegexStPHI.test(request.text)) {
