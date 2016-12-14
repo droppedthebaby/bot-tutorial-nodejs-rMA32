@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/; 
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/hate/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/;
+      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/haters/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/; botRegexSMB = /^\/balls/; botRegexStATL = /^\/st atl/; botRegexStOAK = /^\/st oak/; botRegexStSD = /^\/st sd/; botRegexStKC = /^\/st kc/; botRegexStDEN = /^\/st den/; botRegexStPIT = /^\/st pit/; botRegexStBAL = /^\/st bal/; botRegexStCLE = /^\/st cle/; botRegexStCIN = /^\/st cin/; botRegexStBUF = /^\/st buf/; botRegexStNE = /^\/st ne/; botRegexStMIA = /^\/st mia/; botRegexStNYJ = /^\/st nyj/; botRegexStCAR = /^\/st car/; botRegexStNO = /^\/st no/; botRegexStTB = /^\/st tb/; botRegexStCHI = /^\/st chi/; botRegexStMIN = /^\/st min/; botRegexStDET = /^\/st det/; botRegexStGB = /^\/st GB/; botRegexStJAX = /^\/st jax/; botRegexStIND = /^\/st ind/; botRegexStHOU = /^\/st hou/; botRegexStTEN = /^\/st ten/; botRegexStSEA = /^\/st sea/; botRegexStAZ = /^\/st az/; botRegexStSF = /^\/st sf/; botRegexStLA = /^\/st la/; botRegexStWAS = /^\/st was/; botRegexStNYG = /^\/st nyg/; botRegexStDAL = /^\/st dal/; botRegexStPHI = /^\/st phi/;  
@@ -348,7 +348,7 @@ else if(request.text && botRegexRookies.test(request.text)) {
   }
 else if(request.text && botRegexEscalate.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://i1.kym-cdn.com/photos/images/newsfeed/000/353/279/e31.jpg");
+    postMessage("https://media4.giphy.com/media/ToMjGpjpXMFPshSYGLm/giphy.gif");
     this.res.end();
   }
 else if(request.text && botRegexHate.test(request.text)) {
@@ -384,6 +384,16 @@ else if(request.text && botRegexAmI.test(request.text)) {
 else if(request.text && botRegexThankGod.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://i60.tinypic.com/2uf3osy.jpg");
+    this.res.end();
+  }
+  else if(request.text && botRegexMascot.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://i.groupme.com/1612x2154.jpeg.242d98106c1a490d9275cfb3ba057105.large");
+    this.res.end();
+  }
+else if(request.text && botRegexHateFlow.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://weknowmemes.com/wp-content/uploads/2013/05/palpatine-meme.jpg");
     this.res.end();
   }
   else {
