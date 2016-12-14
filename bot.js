@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/; 
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/;
+      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/hate/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/; botRegexSMB = /^\/balls/; botRegexStATL = /^\/st atl/; botRegexStOAK = /^\/st oak/; botRegexStSD = /^\/st sd/; botRegexStKC = /^\/st kc/; botRegexStDEN = /^\/st den/; botRegexStPIT = /^\/st pit/; botRegexStBAL = /^\/st bal/; botRegexStCLE = /^\/st cle/; botRegexStCIN = /^\/st cin/; botRegexStBUF = /^\/st buf/; botRegexStNE = /^\/st ne/; botRegexStMIA = /^\/st mia/; botRegexStNYJ = /^\/st nyj/; botRegexStCAR = /^\/st car/; botRegexStNO = /^\/st no/; botRegexStTB = /^\/st tb/; botRegexStCHI = /^\/st chi/; botRegexStMIN = /^\/st min/; botRegexStDET = /^\/st det/; botRegexStGB = /^\/st GB/; botRegexStJAX = /^\/st jax/; botRegexStIND = /^\/st ind/; botRegexStHOU = /^\/st hou/; botRegexStTEN = /^\/st ten/; botRegexStSEA = /^\/st sea/; botRegexStAZ = /^\/st az/; botRegexStSF = /^\/st sf/; botRegexStLA = /^\/st la/; botRegexStWAS = /^\/st was/; botRegexStNYG = /^\/st nyg/; botRegexStDAL = /^\/st dal/; botRegexStPHI = /^\/st phi/;  
@@ -331,6 +331,57 @@ else if(request.text && botRegexStPHI.test(request.text)) {
     postMessage("https://www.twitch.tv/longhard_hard");
     this.res.end();
   }
+  else if(request.text && botRegexCheese.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://authoritynutrition.com/wp-content/uploads/2014/11/variety-of-cheese-on-a-wooden-table.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexMistake.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://s-media-cache-ak0.pinimg.com/736x/ee/25/68/ee25687bdad83ffb2d74923e46d4ad7e.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexRookies.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://media.giphy.com/media/NH526iWE2AFsk/giphy.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexEscalate.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://i1.kym-cdn.com/photos/images/newsfeed/000/353/279/e31.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexHate.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://img1.izismile.com/img/img5/20120208/640/epic_haters_gonna_hate_memes_640_37.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexPopcorn.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://cdn.meme.am/cache/instances/folder688/400x/58892688.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexTellMe.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://pbs.twimg.com/profile_images/2571927616/mmb9qajq9swpi8xxy76a_400x400.jpeg");
+    this.res.end();
+  }
+else if(request.text && botRegexDare.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://s2.quickmeme.com/img/82/824495e7c297da76b0528a47f3cea6fe93cb78035b4fe44fb2458bff379502be.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexRead.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://cdn.meme.am/cache/instances/folder531/54265531.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexAmI.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://www.quickmeme.com/img/10/1038253cfffcb26e9843ba2109e4cf8e52c0e7fa3ade70c9faf6ca9008e34b5e.jpg");
+    this.res.end();
+  }
+
   else {
     console.log("don't care");
     this.res.writeHead(200);
