@@ -9,7 +9,7 @@ function respond() {
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/; 
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
-      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/haters/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/; botRegexMascot = /^\/mascot/; botRegexHateFlow = /^\/hate/;
+      botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/; botRegexCheese = /^\/cheese/; botRegexMistake = /^\/mistake/; botRegexRookies = /^\/rookies/; botRegexEscalate = /^\/escalate/; botRegexHate = /^\/haters/; botRegexPopcorn = /^\/popcorn/; botRegexTellMe = /^\/tell me more/; botRegexDare = /^\/dare/; botRegexRead = /^\/read/; botRegexAmI = /^\/am i/; botRegexThankGod = /^\/thank god/; botRegexMascot = /^\/mascot/; botRegexHateFlow = /^\/hate/; botRegexController = /^\/controller/; botRegexUMad = /^\/u mad/; botRegexLost = /^\/lost/; botRegexFuckThis = /^\/fuck this/; botRegexBrowns = /^\/browns/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/gian/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/shaki/;
       botRegexDaf = /^\/dafuq/; botRegexAyy = /^\/ayy/; botRegexSchedule = /^\/schedule/; botRegexSMB = /^\/balls/; botRegexStATL = /^\/st atl/; botRegexStOAK = /^\/st oak/; botRegexStSD = /^\/st sd/; botRegexStKC = /^\/st kc/; botRegexStDEN = /^\/st den/; botRegexStPIT = /^\/st pit/; botRegexStBAL = /^\/st bal/; botRegexStCLE = /^\/st cle/; botRegexStCIN = /^\/st cin/; botRegexStBUF = /^\/st buf/; botRegexStNE = /^\/st ne/; botRegexStMIA = /^\/st mia/; botRegexStNYJ = /^\/st nyj/; botRegexStCAR = /^\/st car/; botRegexStNO = /^\/st no/; botRegexStTB = /^\/st tb/; botRegexStCHI = /^\/st chi/; botRegexStMIN = /^\/st min/; botRegexStDET = /^\/st det/; botRegexStGB = /^\/st GB/; botRegexStJAX = /^\/st jax/; botRegexStIND = /^\/st ind/; botRegexStHOU = /^\/st hou/; botRegexStTEN = /^\/st ten/; botRegexStSEA = /^\/st sea/; botRegexStAZ = /^\/st az/; botRegexStSF = /^\/st sf/; botRegexStLA = /^\/st la/; botRegexStWAS = /^\/st was/; botRegexStNYG = /^\/st nyg/; botRegexStDAL = /^\/st dal/; botRegexStPHI = /^\/st phi/;  
@@ -394,6 +394,31 @@ else if(request.text && botRegexThankGod.test(request.text)) {
 else if(request.text && botRegexHateFlow.test(request.text)) {
     this.res.writeHead(200);
     postMessage("http://weknowmemes.com/wp-content/uploads/2013/05/palpatine-meme.jpg");
+    this.res.end();
+  }
+  else if(request.text && botRegexController.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://img.memecdn.com/the-controller-you-get-when-youre-at-a-friends-house_o_764091.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexUMad.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://s2.quickmeme.com/img/a2/a29934bdbf6a89cc2437cf5c347624d68db17a3a69a35ff748c4fdeac1b27ef8.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexLost.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://images1.westword.com/imager/u/original/7543656/tom.brady.fuck.you.memes.1.jpg");
+    this.res.end();
+  }
+else if(request.text && botRegexFuckThis.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://p.fod4.com/p/media/7102c11ca3/Vg3kd7LuRkOES5CqwO6c_Catan-Table-Flip.gif");
+    this.res.end();
+  }
+else if(request.text && botRegexBrowns.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("http://media.cleveland.com/browns_impact/photo/browns-memejpg-05fb02c929e66aaa.jpg");
     this.res.end();
   }
   else {
