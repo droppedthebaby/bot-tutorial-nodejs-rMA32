@@ -303,7 +303,7 @@ else if(request.text && botRegexStAZ.test(request.text)) {
   }
 else if(request.text && botRegexStSF.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.twitch.tv/ganggreentitans");
+    postMessage("https://www.youtube.com/channel/UCdqVktnKxcQJuE-veWAbZ4A");
     this.res.end();
   }
 else if(request.text && botRegexStLA.test(request.text)) {
